@@ -1,0 +1,103 @@
+body {
+  margin: 0;
+  user-select: none;
+}
+
+header {
+  display: flex;
+  background-color: rgb(203, 176, 176);
+  padding: .5%;
+}
+
+
+.title {
+  align-items: center;
+  display: flex;
+  font-size: 30px;
+  font-weight:900;
+  margin-left: 4%;
+}
+.game-panel {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.balance-bar {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  padding-top: 4%;
+}
+
+.money-now {
+  font-size: 40px;
+}
+.money-sec {
+  font-size: 30px;
+}
+
+.game-panel {
+  background: url(bg.jpg);
+}
+
+.cookie {
+  margin-top: 2%;
+  width: 350px ;
+  cursor: pointer;
+  border-radius: 75px;
+}
+
+.cookie img {
+  border-radius: 75px;
+}
+
+.game-items {
+ display: flex;
+ justify-content: space-around;
+ background-color: rgb(203, 176, 176);
+ flex-wrap: wrap;
+}
+.item-clicker {
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(232, 160, 53);
+  border: 2px black solid;
+}
+
+.item-granny {
+  margin: 1%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(53, 232, 89);
+  border: 2px black solid;
+}
+.item-factory {
+  margin: 1%;
+  border: 2px black solid;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  width: 300px;
+  height: 100px;
+  background-color: rgb(53, 226, 232);
+}
+
+.animco {
+  position: absolute;
+  width: 30px;
+  left: 150px;
+  top: 0px;
+  transition: 1s;
+  opacity:0;
+}
